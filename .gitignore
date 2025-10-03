@@ -7,7 +7,6 @@ selenium-screenshot-*.png
 __pycache__/
 
 # Results directory
-results/
 !results/.gitkeep
 
 # Python
