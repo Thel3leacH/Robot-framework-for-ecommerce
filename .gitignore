@@ -6,9 +6,6 @@ selenium-screenshot-*.png
 *.pyc
 __pycache__/
 
-# Results directory
-!results/.gitkeep
-
 # Python
 venv/
 env/
