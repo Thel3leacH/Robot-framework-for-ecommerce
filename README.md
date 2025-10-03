@@ -1,11 +1,11 @@
-# Doppee Shop E2E Automation Testing
+# E-commerce Shop E2E Automation Testing
 
-Robot Framework test automation project for Doppee Shop e-commerce platform using Page Object Model (POM) pattern.
+Robot Framework test automation project for Shop e-commerce platform using Page Object Model (POM) pattern.
 
 ## 📋 Project Structure
 
 ```
-doppee-shop-automation/
+E-commerce-shop-automation/
 ├── resources/
 │   ├── locators/          # All element locators organized by page
 │   ├── pages/             # Page Object keywords
