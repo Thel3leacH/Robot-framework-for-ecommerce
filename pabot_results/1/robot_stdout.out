@@ -1,0 +1,18 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.Test Case 02 :: Test Case 02: Login, search with direct button click,...
+==============================================================================
+Verify user can complete purchase flow with direct search button :... Found price: THB 765.00
+Found price: THB 50.00
+Found price: THB 54.00
+Found price: THB 869.00
+| PASS |
+------------------------------------------------------------------------------
+Tests.Test Case 02 :: Test Case 02: Login, search with direct butt... | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Tests                                                                 | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Admin\Desktop\home_test\pabot_results\1\output.xml

@@ -1,0 +1,65 @@
+# Robot Framework
+output.xml
+log.html
+report.html
+selenium-screenshot-*.png
+*.pyc
+__pycache__/
+
+# Results directory
+results/
+!results/.gitkeep
+
+# Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Browser drivers
+chromedriver
+geckodriver
+*.exe
+
+screenshot
+
+# Robot Framework generated files
+output.xml
+log.html
+report.html
+debug.log
+.robotframework-ls/
+
+# Python specific files (as Robot Framework is Python-based)
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+venv/
+.venv/
+
+# IDE specific files (e.g., VS Code)
+.vscode/
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Other common exclusions
+*.zip
+*.tar.gz
+*.log
+
+.pabotsuitenames
