@@ -6,6 +6,10 @@ Resource        ../locators/login_locators.robot
 Resource        ../variables/test_data.robot
 
 *** Keywords ***
+Transfer to thai
+    Wait and click element    ${LOC_LANGUAGE_BUTTON}
+    Wait and click element    ${LOC_LANGUAGE_LINK}
+
 Navigate to login page
     [Documentation]    Clicks account button and navigates to signin page
     Wait and click element    ${LOC_ACCOUNT_BUTTON}

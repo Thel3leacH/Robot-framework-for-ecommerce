@@ -15,6 +15,7 @@ Test Teardown    Close application
 Verify user can complete purchase flow with autocomplete search
     [Documentation]    User logs in, searches using autocomplete, adds product to cart, and verifies pricing
     [Tags]        e2e    autocomplete
+    Transfer to thai
     Login as valid user
     Search and select from suggestions    ${SEARCH_KEYWORD}
     Configure and add product to cart    ${PRODUCT_COLOR}    ${PRODUCT_QUANTITY}

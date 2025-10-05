@@ -33,18 +33,18 @@ Get checkout price value or zero
 Verify price calculation
     [Documentation]    Verifies that subtotal - discount + shipping = total
     ${subtotal}=    Get checkout price value    ${SHADOW_SELECTOR_SUBTOTAL}
-    # ${discount}=    Get checkout price value    ${SHADOW_SELECTOR_DISCOUNT}
+    ${discount}=    Get checkout price value    ${SHADOW_SELECTOR_DISCOUNT}
     # ${discount}=    Get checkout price value or zero    ${SHADOW_SELECTOR_DISCOUNT}
     ${shipping}=    Get checkout price value    ${SHADOW_SELECTOR_SHIPPING}
     ${vat}=    Get checkout price value        ${SHADOW_SELECTOR_VAT}
     ${total}=    Get checkout price value      ${SHADOW_SELECTOR_TOTAL}
     
-    # ${calculated_total}=    Evaluate    ${subtotal} - ${discount} + ${shipping} + ${vat}
-    ${calculated_total}=    Evaluate    ${subtotal} + ${shipping} + ${vat}
+    ${calculated_total}=    Evaluate    ${subtotal} - ${discount} + ${shipping} + ${vat}
+    # ${calculated_total}=    Evaluate    ${subtotal} + ${shipping} + ${vat}
     
     Should Be Equal As Numbers    ${calculated_total}    ${total}    
-    # ...    msg=Price calculation incorrect: ${subtotal} - ${discount} + ${shipping} + ${vat} should equal ${total}
-    ...    msg=Price calculation incorrect: ${subtotal} + ${shipping} + ${vat} should equal ${total}
+    ...    msg=Price calculation incorrect: ${subtotal} - ${discount} + ${shipping} + ${vat} should equal ${total}
+    # ...    msg=Price calculation incorrect: ${subtotal} + ${shipping} + ${vat} should equal ${total}
     
-    # Log    Price verification passed: Subtotal=$${subtotal} - Discount=$${discount} + Shipping=$${shipping} +${vat} = Total=$${total}
-    Log    Price verification passed: Subtotal=$${subtotal} + Shipping=$${shipping} +${vat} = Total=$${total}
+    Log    Price verification passed: Subtotal=$${subtotal} - Discount=$${discount} + Shipping=$${shipping} +${vat} = Total=$${total}
+    # Log    Price verification passed: Subtotal=$${subtotal} + Shipping=$${shipping} +${vat} = Total=$${total}
