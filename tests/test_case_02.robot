@@ -16,6 +16,7 @@ Test Teardown    Close application
 Verify user can complete purchase flow with direct search button
     [Documentation]    User logs in, searches by clicking search button, selects product from results, adds to cart, and verifies pricing
     [Tags]        e2e    direct-search
+    Transfer to thai
     Login as valid user
     Search with direct button click        ${SEARCH_KEYWORD_TC02}
     Select ceramic mug from search results

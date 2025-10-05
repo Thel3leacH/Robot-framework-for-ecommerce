@@ -59,3 +59,12 @@ Thumbs.db
 *.log
 
 .pabotsuitenames
+
+# Results directory
+results/
+!results/.gitkeep
+
+# Pabot specific output and temporary files
+pabot_results/
+pabot_logs/
+pabot_temp/
