@@ -58,4 +58,9 @@ Thumbs.db
 *.tar.gz
 *.log
 
+# Pabot specific output and temporary files
+pabot_results/
+robot_argfile.txt
+robot_stderr.out
+robot_stdout.out
 .pabotsuitenames

@@ -3,10 +3,10 @@ Tests
 ==============================================================================
 Tests.Test Case 01 :: Test Case 01: Login, search with autocomplete, add to...
 ==============================================================================
-Verify user can complete purchase flow with autocomplete search ::... Found price: THB 0.00
-Found price: THB 0.00
-Found price: THB 0.00
-Found price: THB 0.00
+Verify user can complete purchase flow with autocomplete search ::... Found price: THB 765.00
+Found price: THB 50.00
+Found price: THB 54.00
+Found price: THB 869.00
 | PASS |
 ------------------------------------------------------------------------------
 Tests.Test Case 01 :: Test Case 01: Login, search with autocomplet... | PASS |
